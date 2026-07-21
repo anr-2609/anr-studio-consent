@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.fireants.consent-mergeReleaseResources-28:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/longtq/.gradle/caches/transforms-3/cfb176c84be1a597745f2bfb3cc5dbd9/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.fireants.consent-merged_res-30:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/longtq/.gradle/caches/transforms-3/cfb176c84be1a597745f2bfb3cc5dbd9/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

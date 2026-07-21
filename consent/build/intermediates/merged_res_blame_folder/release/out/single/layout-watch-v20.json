@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.fireants.consent-merged_res-30:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.fireants.consent-appcompat-1.6.1-21:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "com.fireants.consent-merged_res-30:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "com.fireants.consent-appcompat-1.6.1-21:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]
