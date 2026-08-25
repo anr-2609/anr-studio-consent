@@ -20,11 +20,11 @@ dependencies {
 
 ## Update API
 
-Use `FireAntsAppUpdateConsentManager` for in-app updates.
+Use `AnrStudioAppUpdateConsentManager` for in-app updates.
 
 ```kotlin
 if (isShowDialogUpdate) {
-    FireAntsAppUpdateConsentManager(this, REQUEST_CODE, object : FireAntsAppUpdateConsentCallback {
+    AnrStudioAppUpdateConsentManager(this, REQUEST_CODE, object : AnrStudioAppUpdateConsentCallback {
         override fun updateAvailableListener(updateAvailability: AppUpdateInfo): Int {
             return if (updateAvailability.updateAvailability() == UpdateAvailability.UPDATE_AVAILABLE) {
                 type
@@ -41,23 +41,23 @@ if (isShowDialogUpdate) {
 Load consent info and decide later whether to show the dialog:
 
 ```kotlin
-FireAntsAdConsentManager.loadAndShowConsent(false, this)
+ANRConsentManager.loadAndShowConsent(false, this)
 ```
 
 Show consent after a previous load:
 
 ```kotlin
-FireAntsAdConsentManager.showDialogConsent(this)
+ANRConsentManager.showDialogConsent(this)
 ```
 
 Load and show immediately:
 
 ```kotlin
-FireAntsAdConsentManager.loadAndShowConsent(true, this)
+ANRConsentManager.loadAndShowConsent(true, this)
 ```
 
 Reset consent state:
 
 ```kotlin
-FireAntsAdConsentManager.resetConsentDialog()
+ANRConsentManager.resetConsentDialog()
 ```

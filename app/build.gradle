@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.fireants.democonsent'
+    namespace 'com.anrstudio.democonsent'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.fireants.democonsent"
+        applicationId "com.anrstudio.democonsent"
         minSdk 21
         targetSdk 34
         versionCode 1

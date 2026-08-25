@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace 'com.fireants.consent'
+    namespace 'com.anrstudio.consent'
     compileSdk 34
 
     defaultConfig {
@@ -49,7 +49,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.fireants'
+                groupId = 'com.anrstudio'
                 artifactId = 'consent'
                 version = '1.0.0'
             }
@@ -58,7 +58,7 @@ afterEvaluate {
         repositories {
             maven {
                 name = 'GitHubPackages'
-                url = uri('https://maven.pkg.github.com/longtq260900/fireants-consent')
+                url = uri('https://maven.pkg.github.com/longtq260900/anr-studio-consent')
 
                 credentials {
                     username = project.findProperty('gpr.user') ?: System.getenv('GITHUB_ACTOR')
